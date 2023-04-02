@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload Example</title>
+  </head>
+  <body>
+    <h1>File Upload Example</h1>
+    <form action="http://localhost:3000/upload" method="POST" enctype="multipart/form-data">
+      <label>Upload PDFs:</label>
+      <input type="file" name="pdfs" multiple>
+      <br><br>
+      <label>Upload Syllabus:</label>
+      <input type="file" name="syllabus">
+      <br><br>
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
